@@ -1,0 +1,14 @@
+{
+  "persons": [
+    {
+      "name": "Lea Kutvonen",
+      "number": "040-123456",
+      "id": 4
+    },
+    {
+      "name": "testi testaaja",
+      "number": "098765432",
+      "id": 7
+    }
+  ]
+}
