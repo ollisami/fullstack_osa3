@@ -58,7 +58,7 @@ const App = () => {
           setTimedMessage(`Henkilön ${returnedPerson.name} lisäys onnistui`, false)
       })
       .catch(error => {
-        setTimedMessage('Henkilön lisäys epäonnistui', true)
+        setTimedMessage("Virhe:" + error, true)
       })
     } else if (window.confirm(`${newName} on jo luettelossa, korvataanko vanha numero uudella?`)) {
         personService
